@@ -4,6 +4,7 @@ background-color: silver;
 font-size:130%;
 
 }
+
 h1 {
 text-align:center;
 color: red;
@@ -57,19 +58,28 @@ section p.paragraph1{
 
 	background-color: grey;
 	color:white;
+	text-align: center;
 }
 
 section p.paragraph2{
 
 	background-color: grey;
 	color:white;
+	text-align: center;
 }section p.paragraph3{
 
 	background-color: grey;
 	color:white;
+	text-align: center;
 }
 section p.paragraph4{
 
 	background-color: grey;
 	color:white;
+	text-align: center;
 }
+body section article.info{
+	text-align: center;
+}
+
+
