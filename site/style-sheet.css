@@ -1,0 +1,75 @@
+
+body {
+background-color: silver;
+font-size:130%;
+
+}
+h1 {
+text-align:center;
+color: red;
+font-size: 50px;
+
+}
+ul li {
+list-style:none;
+}
+ a:link , a:visited {
+text-decoration: none;
+background-color: Teal;
+color:white;
+border:1px solid green;
+display:block;
+width:200px;
+text-align:right;
+margin-bottom:2px;
+text-align: center;
+font-size: 20px;
+
+ }
+ ul li:nth-child(1):hover{
+ 	background-color: Aqua ;
+ 	color:black;
+ 	cursor: pointer;
+ }
+ li {
+
+ 	background-color: Teal;
+ 	color:white;
+ 	border:1px solid green;
+ 	display:block;
+ 	width:200px;
+ 	text-align:left;
+margin-bottom:2px;
+text-align: center;
+font-size: 25px;
+ }
+a:hover , a:active {
+background-color: Aqua;
+color:black;
+
+}
+.h2{
+color:red;
+text-align: center;
+
+}
+section p.paragraph1{
+
+	background-color: grey;
+	color:white;
+}
+
+section p.paragraph2{
+
+	background-color: grey;
+	color:white;
+}section p.paragraph3{
+
+	background-color: grey;
+	color:white;
+}
+section p.paragraph4{
+
+	background-color: grey;
+	color:white;
+}
