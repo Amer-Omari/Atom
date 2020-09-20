@@ -2,84 +2,143 @@
 body {
 background-color: silver;
 font-size:130%;
+font-family:Arial, Helvetica, sans-serif;
+background-image:url("6.jpg");
+background-position: center;
+box-sizing: border-box;
+width: 1330px;
 
 }
 
 h1 {
-text-align:center;
 color: red;
 font-size: 50px;
-
+background-color: black;
+padding:0.5px;
+margin: 0.5px 0.5px 0.5px 350px ;
+border:0.5px;
+width:720px;
+box-sizing: border-box;
+text-align:center;
+	
 }
+
 ul li {
 list-style:none;
 }
+
+
  a:link , a:visited {
 text-decoration: none;
-background-color: Teal;
-color:white;
+background-color: #FECC01;
+color:black;
 border:1px solid green;
 display:block;
 width:200px;
 text-align:right;
 margin-bottom:2px;
 text-align: center;
-font-size: 20px;
+font-size: 18px;
+text-transform: capitalize;
+}
 
- }
- ul li:nth-child(1):hover{
- 	background-color: Aqua ;
- 	color:black;
+  ul li:nth-child(1):hover{
+ 	background-color: red ;
+ 	color:white;
  	cursor: pointer;
- }
+
+ 	 }
+
  li {
 
- 	background-color: Teal;
- 	color:white;
- 	border:1px solid green;
+ 	background-color: #FECC01;
+ 	color:black;
+ 	border:1px solid black;
  	display:block;
  	width:200px;
  	text-align:left;
 margin-bottom:2px;
 text-align: center;
-font-size: 25px;
+font-size: 20px;
+
+
  }
 a:hover , a:active {
-background-color: Aqua;
-color:black;
-
+background-color: red;
+color:white;
 }
+
+
 .h2{
 color:red;
 text-align: center;
 
 }
+
+
 section p.paragraph1{
 
-	background-color: grey;
-	color:white;
+	background-color: #ABAB78;
+	color:yellow;
 	text-align: center;
+	padding:1px;
+	margin:1px;
+	border: 0.5px;
+	width:auto;
+
+	box-sizing: border-box;
+
 }
+
 
 section p.paragraph2{
 
-	background-color: grey;
-	color:white;
+	background-color: #ABAB78;
+	color:yellow;
 	text-align: center;
-}section p.paragraph3{
+	padding:1px;
+	margin:1px;
+	border: 0.5px;
+	width:auto;
 
-	background-color: grey;
-	color:white;
-	text-align: center;
+	box-sizing: border-box;
+
 }
+
+section p.paragraph3{
+
+	background-color: #ABAB78;
+	color:yellow;
+	text-align: center;
+	padding:1px;
+	margin:1px;
+	border: 0.5px;
+	width:auto;
+
+	box-sizing: border-box;
+}
+
+
 section p.paragraph4{
 
-	background-color: grey;
-	color:white;
+	background-color: #ABAB78;
+	
+
+	color:yellow;
 	text-align: center;
+	padding:1px;
+	margin:1px;
+	border: 0.5px;
+	width:auto;
+
+	box-sizing: border-box;
 }
+
+
 body section article.info{
 	text-align: center;
+	background-color: #ABAB78;
+	color: #FEFE01;
 }
 
 
