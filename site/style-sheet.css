@@ -3,7 +3,7 @@ body {
 background-color: silver;
 font-size:130%;
 font-family:Arial, Helvetica, sans-serif;
-background-image:url("6.jpg");
+background-image:url("9.jpg");
 background-position: center;
 box-sizing: border-box;
 width: 1330px;
@@ -40,14 +40,11 @@ padding:10px;
 	float: left;
 
 }
-#back{
-	clear:both;
-}
 
 h1 {
 color: red;
 font-size: 50px;
-background-color: black;
+
 padding:0.5px;
 margin: 0.5px 0.5px 0.5px 350px ;
 border:0.5px;
@@ -63,81 +60,70 @@ list-style:none;
 }
 
 
- a:link , a:visited {
-text-decoration: none;
-background-color: #FECC01;
-color:black;
-border:1px solid green;
-text-align:center;
-
-font-size: 18px;
-text-transform: capitalize;
-padding:5px;
-margin-bottom: 5px;
-clear:both;
-
-
-}
-a:hover , a:active {
-background-color: red;
-color:white;
-}
+ 
 
  ul #one {
  background-color: #FECC01;
  color:black;
  border:1px solid green;
   display:block;
-   width:1250px;
+   width:100%;
    text-align: center;
    margin-bottom:2px;
    font-size: 25px;
-
  }
+
  #backto {
  background-color: #FECC01;
  color:black;
  border:1px solid green;
   display:block;
-   width:300px;
+   width:32%;
    text-align: center;
-   margin-bottom:2px;
+  
    font-size: 20px;
-   clear:both;
+   clear:right;
+   float:left;
+   margin :5px;
+   padding:7px;
 
  }
- a div:hover {
- background-color: red;
- color: white;
 
- }
  #two  {
 background-color: #FECC01;
  color:black;
  border:1px solid green;
   display:block;
-   width:300px;
+   width:32%;
    text-align: center;
-   margin-bottom:2px;
+   
    font-size: 20px;
-   clear:both;
+   
+   float:left;
+   clear:right;
+    margin :5px;
+    padding:7px;
  }
-
-
-
 
  #three {
  	background-color: #FECC01;
+
  color:black;
  border:1px solid green;
   display:block;
-   width:300px;
+ width:32%;
    text-align: center;
-   margin-bottom:2px;
    font-size: 20px;
-   clear:both;
+   clear:right;
+    float:left;
+     margin :5px;
+     padding:7px;
  }
 
+a div:hover {
+		background-color: red ;
+		color:white ;
+}
 
 
  /*ul li:nth-child(1):hover{
@@ -165,6 +151,7 @@ section p.paragraph1{
 	margin:1px;
 	border: 0.5px;
 	width:auto;
+	clear:left;
 
 	
 
@@ -219,32 +206,74 @@ footer {
 	clear:both;
 }
 
+
+
+
 body ul ol #front{
 float: left;
-width: 25%;
-padding:10px;
+
+background-color: #FECC01;
+color:black;
+border:1px solid green;
+text-align:center;
+font-size: 18px;
+text-transform: capitalize;
+width: 24%;
+
+;
 }
 body ul ol #back{
 	float: left;
-	width: 25%;
+	width: 24%;
+	text-decoration: none;
+background-color: #FECC01;
+color:black;
+border:1px solid green;
+text-align:center;
+
+font-size: 18px;
+text-transform: capitalize;
 	clear:right;
-	padding:10px;
+	
 
 	
 }
 body ul ol #web{
 	float: left;
-	width: 25%;
-	padding:10px;
+	width: 24%;
+	
+	text-decoration: none;
+background-color: #FECC01;
+color:black;
+border:1px solid green;
+text-align:center;
+
+font-size: 18px;
+text-transform: capitalize;
 	
 
 	
 }
 body ul ol #full{
 	float: left;
-	width: 25%;
-	padding:10px;
+	text-decoration: none;
+background-color: #FECC01;
+color:black;
+border:1px solid green;
+text-align:center;
+
+font-size: 18px;
+text-transform: capitalize;
+width: 24%;
 	
+}
+a:link , a:visited {
+text-decoration: none;
+background-color: #FECC01;
+color:black;
 
 }
-
+a:hover , a:active {
+background-color: red;
+color:white;
+}
