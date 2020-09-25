@@ -277,3 +277,12 @@ a:hover , a:active {
 background-color: red;
 color:white;
 }
+
+
+/* index2 --> */
+#if-you {position: relative;
+	bottom: 50px;
+	left: 300px;}
+#lets-link{position: absolute;
+	top: 0px;
+	left: 0px;}
