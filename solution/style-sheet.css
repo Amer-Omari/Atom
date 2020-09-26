@@ -20,10 +20,8 @@ font-family: 'Oxygen', sans-serif;
 	border-radius: 0;
 	border:0;
 }
-	
 
-
-#logo-img {
+#logo-img{
 	background: url('brand1.png');
 	width: 200px;
 	height: 200px;
