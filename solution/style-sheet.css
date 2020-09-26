@@ -1,11 +1,10 @@
 body {
 font-size:16px;
 color: #fff;
-background-color:  #ffffff;
+background-color:  #ffffff ;
 font-family: 'Oxygen', sans-serif;
-	
-
 }
+
 .navbar-toggler{
 	
 	background: url('download.png');
