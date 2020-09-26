@@ -9,6 +9,10 @@ background-color:   #ff7326;
 .navbar-toggler{
 	
 	background: url('download.png');
+	color: white;
+	width: 3em;
+	height: 2em;
+	border :1px solid gold;
 }
 .navbar-custom{
 	background-color: #ff3712;
