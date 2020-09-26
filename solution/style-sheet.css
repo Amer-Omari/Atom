@@ -40,13 +40,14 @@ background-color:   #ff7326;
 .navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #FFD700;
-	font-size:3em;
+	font-size:2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0.7em;
 	margin-bottom: 0;
 	line-height: 1;
+
 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
