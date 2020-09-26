@@ -13,7 +13,9 @@ background-color:   #ff7326;
 	width: 3em;
 	height: 2em;
 	border :1px solid gold;
+	float: right;
 }
+
 .navbar-custom{
 	background-color: #ff3712;
 	border-radius: 0;
