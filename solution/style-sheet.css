@@ -12,9 +12,7 @@ background-color:   #ff7326;
 	border:0;
 	
 }
-.navbar-header{
 
-}
 
 #logo-img {
 	background: url('brand.png');
@@ -23,8 +21,8 @@ background-color:   #ff7326;
 	margin: 10px 15px 10px 0;
 }
 .smallpic {
-	width: 50px;
-	height: 50px;
+	width: 3em;
+	height: 3em;
 }
 .navbar-brand {
 	padding-top:35px;
