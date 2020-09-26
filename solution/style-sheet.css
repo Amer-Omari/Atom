@@ -3,6 +3,8 @@ font-size:16px;
 color: #fff;
 background-color:   #ff7326;
 	font-family: 'Oxygen', sans-serif;
+	
+
 }
 #header-nav {
 	background-color: #ff3712;
@@ -10,10 +12,44 @@ background-color:   #ff7326;
 	border:0;
 	
 }
+.navbar-header{
+
+}
 
 #logo-img {
 	background: url('brand.png');
 	width: 200px;
 	height: 200px;
 	margin: 10px 15px 10px 0;
+}
+.smallpic {
+	width: 50px;
+	height: 50px;
+}
+.navbar-brand {
+	padding-top:35px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #FFD700;
+	font-size:3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration:none;
+}
+.navbar-brand p {
+	color: #000 ;
+	text-transform:capitalize;
+	font-size: .7em;
+	margin-top: 10px;
+	color: #FFD700;
+}
+.navbar-brand p span {
+	vertical-align: middle;
 }
