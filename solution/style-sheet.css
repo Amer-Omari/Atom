@@ -115,51 +115,50 @@ font-family: 'Oxygen', sans-serif;
 }
 /***********extre small devices**********/
 @media (min-width: 576px ) and (max-width: 767px) {
+	
 	.navbar-brand h1 {
-	font-family: 'Lora', serif;
-	color: #FFD700;
-	font-size:0.9em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-shadow: 1px 1px 1px #222;
-	margin-top: 0.7em;
-	margin-bottom: 0;
-	line-height: 1;
+  font-family: 'Lora', serif;
+  color: #FFD700;
+  font-size:0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  line-height: 1;
 
-	}
-	.navbar-nav a span {
-	font-size: 0.9em 
+  }
+  .navbar-nav a span {
+  font-size: 0.9em 
 
 }
 .container {
-	width: 100%;
-	margin-left:20px ;
-	margin-right: 20px;
+  margin-top: 0px 0px 0px 0px;
+
 }
+
 #phone {
-	margin-top: 9px;
-	font-size: 1.5vw;
+  margin-top: 10px;
+  font-size: 1.5vw;
 }
-
-
 #phone a {
-	text-align: right;
-	padding-bottom: 0;
+  text-align: right;
+  padding-bottom: 0;
 }
 #phone div {
-	color: white;
-	text-align: right;
-	font-size: 13px;
+  color: white;
+  text-align: right;
+  font-size: 12px;
 }
- .navbar-nav .nav-link{ font-size: 14px }
-	
-}
+.navbar-nav .nav-link{ font-size: 2vw; }
 .smallpic {
-	font-size: 7px;
+  font-size: 7px;
 }
 .happy {
-	font-size: 15px;
+  font-size: 15px;
 }
+}
+
 /***********extre  extra small devices**********/
 @media (max-width: 575px) {
 .navbar-brand h1 {
@@ -191,6 +190,9 @@ float :left;
  .navbar-toggler {
  	font-size:4vw;
  	float :right;
+ }
+a.nav-link span {
+ 	margin-right: 8px;
  }
 
 }
