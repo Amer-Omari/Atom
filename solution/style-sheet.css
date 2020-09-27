@@ -60,3 +60,31 @@ font-family: 'Oxygen', sans-serif;
 .navbar-brand p span {
 	vertical-align: middle;
 }
+
+.navbar-nav a {
+	color: #FFD700;
+	text-align: center;
+	vertical-align:middle;
+}
+.navbar-nav a:hover {
+	background-color: #E7E7E7;
+
+}
+.navbar-nav a span {
+	font-size: 1.3em 
+}
+#phone {
+	margin-top: 9px;
+}
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: white;
+	text-align: right;
+
+}
+.glyphicon {
+	
+}
