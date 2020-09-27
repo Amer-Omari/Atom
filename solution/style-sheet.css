@@ -65,7 +65,7 @@ font-family: 'Oxygen', sans-serif;
 	vertical-align:middle;
 }
 .navbar-nav a:hover {
-	background-color: #E7E7E7;
+	background-color: purple;
 
 }
 .navbar-nav a span {
@@ -84,7 +84,4 @@ font-family: 'Oxygen', sans-serif;
 	color: white;
 	text-align: right;
 
-}
-.glyphicon {
-	
 }
