@@ -7,8 +7,6 @@ font-family: 'Oxygen', sans-serif;
 
 .navbar-toggler{
 	
-	background: url('download.png');
-	color: white;
 	width: 3em;
 	height: 2em;
 	border :1px solid #ffffff;
@@ -72,7 +70,9 @@ font-family: 'Oxygen', sans-serif;
 }
 .navbar-nav a span {
 	font-size: 1.3em 
+
 }
+
 #phone {
 	margin-top: 9px;
 }
