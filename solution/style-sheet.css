@@ -85,3 +85,102 @@ font-family: 'Oxygen', sans-serif;
 	text-align: right;
 
 }
+.container .navbar button.navbar-toggler {
+	clear :both;
+
+/************larg devices***********/
+}
+@media (min-width: 1200px) 
+{
+
+}
+/***********medium devices**********/
+@media (min-width: 992px) and (max-width: 1199px)
+ {
+#logo-img {
+	background: url('brand2.png');
+	width: 100px;
+	height: 100px;
+	margin: 0px 10px 4px 0;
+	
+}
+
+
+}
+/***********small devices**********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+	
+}
+/***********extre small devices**********/
+@media (min-width: 576px ) and (max-width: 767px) {
+	.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #FFD700;
+	font-size:0.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0.7em;
+	margin-bottom: 0;
+	line-height: 1;
+
+	}
+	.navbar-nav a span {
+	font-size: 0.9em 
+
+}
+.container {
+	width: 100%;
+	margin-left:20px ;
+	margin-right: 20px;
+}
+#phone {
+	margin-top: 9px;
+	font-size: 14px;
+}
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div {
+	color: white;
+	text-align: right;
+	font-size: 13px;
+}
+     .navbar-nav .nav-link{ font-size: 14px }
+	
+}
+.smallpic {
+	font-size: 7px;
+}
+.happy {
+	font-size: 15px;
+}
+
+@media (max-width: 576px) {
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #FFD700;
+	font-size:7vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0.7em;
+	margin-bottom: 0;
+	line-height: 1;
+
+	}
+.happy {
+	font-size:4vw;
+
+ }
+ .navbar-header {
+ 	margin-right: 20px;
+ }
+ .navbar-toggler{
+ 	font-size:4vw;
+ }
+
+}
