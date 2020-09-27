@@ -138,8 +138,10 @@ font-family: 'Oxygen', sans-serif;
 }
 #phone {
 	margin-top: 9px;
-	font-size: 14px;
+	font-size: 1.5vw;
 }
+
+
 #phone a {
 	text-align: right;
 	padding-bottom: 0;
@@ -149,7 +151,7 @@ font-family: 'Oxygen', sans-serif;
 	text-align: right;
 	font-size: 13px;
 }
-     .navbar-nav .nav-link{ font-size: 14px }
+ .navbar-nav .nav-link{ font-size: 14px }
 	
 }
 .smallpic {
@@ -158,8 +160,8 @@ font-family: 'Oxygen', sans-serif;
 .happy {
 	font-size: 15px;
 }
-
-@media (max-width: 576px) {
+/***********extre  extra small devices**********/
+@media (max-width: 575px) {
 .navbar-brand h1 {
 	font-family: 'Lora', serif;
 	color: #FFD700;
@@ -167,20 +169,28 @@ font-family: 'Oxygen', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0.7em;
+	margin-top: 0.3em;
 	margin-bottom: 0;
 	line-height: 1;
+	float :left;
 
 	}
 .happy {
 	font-size:4vw;
-
+float :left;
  }
  .navbar-header {
- 	margin-right: 20px;
+ 	margin-right: 0.2vw;
+
+ 	float :left;
  }
- .navbar-toggler{
+ .smallpic {
+	font-size: 7px;
+float :left;
+}
+ .navbar-toggler {
  	font-size:4vw;
+ 	float :right;
  }
 
 }
