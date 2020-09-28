@@ -202,6 +202,11 @@ a.nav-link span {
 	color: #FFD700;
 	margin-right: 2px;
 }
+#call-btn a:hover{
+	background-color: purple;
+	text-decoration: none;
+}
+
 #xs-deliver{
 	color: white;
 }
