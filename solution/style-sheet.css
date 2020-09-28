@@ -210,7 +210,7 @@ margin-top: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0em;
+	margin-top: -0.7em;
 	margin-bottom: 0;
 	line-height: 1;
 	float :left;
@@ -219,6 +219,7 @@ margin-top: 20px;
 .happy {
 	font-size:4vw;
 float :left;
+margin-top: 6px;
  }
  .navbar-header {
  	margin-right: 0.2vw;
@@ -238,7 +239,7 @@ margin-right: 4px;
 a.nav-link span {
  	margin-right: 8px;
  }
- 
+
 #main-content {
 	padding-right: 30px;
 	padding-left:  30px;
@@ -250,7 +251,8 @@ a.nav-link span {
 /******************************/
 #call-btn .btn {
 	color: #FFD700;
-	margin-right: 2px;
+	margin-left: 15px;
+	
 }
 #call-btn a:hover{
 	background-color: purple;
