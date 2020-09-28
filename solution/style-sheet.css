@@ -87,11 +87,33 @@ font-family: 'Oxygen', sans-serif;
 }
 .container .navbar button.navbar-toggler {
 	clear :both;
+}
+/******************the main image******************/
+#main-content {
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right:  90px;
+	padding-left:  90px;
+
+
+}
+.jumbotron {
+	padding: 0px;
+	
+}
+#mine {
+	background-color: white;
+}
+/****************************************************/
+
 
 /************larg devices***********/
-}
+
 @media (min-width: 1200px) 
 {
+
+
 
 }
 /***********medium devices**********/
@@ -119,19 +141,16 @@ font-family: 'Oxygen', sans-serif;
 
 }
 
+
 	
 }
 /***********extre small devices**********/
 @media (min-width: 576px ) and (max-width: 767px) {
 	
 #header-nav {
-	padding: 0px
+	padding: 10px
+	margin:50px;
 }
-.container {
-	margin-right: 0px;
-	margin-left: 40px;
-}
-
 
 	.navbar-brand h1 {
   font-family: 'Lora', serif;
@@ -147,33 +166,39 @@ font-family: 'Oxygen', sans-serif;
   }
   .navbar-nav a span {
   font-size: 0.9em 
-
 }
-.container {
-  margin-top: 0px 0px 0px 0px;
 
-}
 
 #phone {
-  margin-top: 10px;
-  font-size: 2.5vw;
+  margin-top: 0px;
+  font-size: 1.7vw;
+margin-top: 20px;
 }
 #phone a {
-  text-align: right;
+  text-align: center;
   padding-bottom: 0;
 }
 #phone div {
   color: white;
-  text-align: right;
-  font-size: 14px;
+  text-align: center;
+  font-size: 1.5vw;
 }
-.navbar-nav .nav-link{ font-size: 2vw; }
+.navbar-nav .nav-link{
+ font-size: 2vw;
+ margin-top: 20px; }
+
 .smallpic {
   font-size: 7px;
 }
 .happy {
   font-size: 15px;
 }
+#main-content {
+	padding-right: 30px;
+	padding-left:  30px;
+}
+
+
 }
 
 /***********extre  extra small devices**********/
@@ -213,6 +238,12 @@ margin-right: 4px;
 a.nav-link span {
  	margin-right: 8px;
  }
+ 
+#main-content {
+	padding-right: 30px;
+	padding-left:  30px;
+}
+
 
 }
 
@@ -230,21 +261,3 @@ a.nav-link span {
 	color: white;
 }
 
-/******************the main image******************/
-#main-content {
-	background-color: white;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right:  90px;
-	padding-left:  90px;
-
-
-}
-.jumbotron {
-	padding: 0px;
-	
-}
-#mine {
-	background-color: white;
-}
-/****************************************************/
