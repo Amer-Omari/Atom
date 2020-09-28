@@ -210,3 +210,22 @@ a.nav-link span {
 #xs-deliver{
 	color: white;
 }
+
+/******************the main image******************/
+#main-content {
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right:  90px;
+	padding-left:  90px;
+
+
+}
+.jumbotron {
+	padding: 0px;
+	
+}
+#mine {
+	background-color: white;
+}
+/****************************************************/
