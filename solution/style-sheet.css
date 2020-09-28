@@ -105,6 +105,43 @@ font-family: 'Oxygen', sans-serif;
 #mine {
 	background-color: white;
 }
+#menu-tile, #specials-tile, #map-tile {
+height : 250px ;
+width: 100%;
+margin-bottom: 15px;
+position: relative;
+border :2px solid black;
+overflow:hidden;
+}
+
+#menu-tile:hover , #specials-tile:hover , #map-tile:hover {
+	box-shadow: 0 1px 5px 1px purple;
+}
+#menu-tile {
+	background: url('food1.jpg');
+	background-position: center;
+
+}
+#specials-tile {
+	background: url('food2.jpg');
+	background-position: center;
+}
+
+#menu-tile span , #specials-tile span , #map-tile span {
+
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff; 
+	opacity: .8;
+}
+
+
 /****************************************************/
 
 
@@ -202,7 +239,7 @@ margin-top: 20px;
 }
 
 /***********extre  extra small devices**********/
-@media (max-width: 575px) {
+@media (min-width: 398px) and (max-width: 575px) {
 .navbar-brand h1 {
 	font-family: 'Lora', serif;
 	color: #FFD700;
@@ -250,6 +287,47 @@ a.nav-link span {
 	margin :0px;
 	font-size: 4vw;
 }
+#menu-tile, #specials-tile, #map-tile{
+width:360px;
+margin:0 auto 15px;
+
+}
+}
+/*************tiny devices*****************/
+@media (max-width: 397px){
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #FFD700;
+	font-size:6vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -0.7em;
+	margin-bottom: 0;
+	line-height: 1;
+	float :left;
+
+	}
+.happy {
+font-size:3vw;
+
+margin-top: 6px;
+ }
+ .smallpic {
+ 	font-size:10px;
+ }
+
+#menu-tile, #specials-tile ,#map-tile{
+width:290px;
+margin:0 auto 15px;
+
+}
+#main-content {
+	padding :20px 10px 5px  ;
+}
+
+
 }
 
 /******************************/
@@ -266,4 +344,5 @@ a.nav-link span {
 #xs-deliver{
 	color: white;
 }
+
 
