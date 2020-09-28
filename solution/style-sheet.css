@@ -196,3 +196,12 @@ a.nav-link span {
  }
 
 }
+
+/******************************/
+#call-btn .btn {
+	color: #FFD700;
+	margin-right: 2px;
+}
+#xs-deliver{
+	color: white;
+}
