@@ -241,11 +241,13 @@ a.nav-link span {
  }
 
 #main-content {
-	padding-right: 30px;
-	padding-left:  30px;
+	padding-right: 15px;
+	padding-left:  15px;
 }
-
-
+.btn {
+	padding: 5px;
+	margin :0px;
+}
 }
 
 /******************************/
