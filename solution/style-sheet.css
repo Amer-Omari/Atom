@@ -143,7 +143,40 @@ overflow:hidden;
 
 
 /****************************************************/
+/**********footer****************/
 
+
+footer {
+	color: #FFD700;
+	background-color: #222;
+	padding: 1vw;
+	padding-bottom: 0;
+	
+}
+#hours ,#address , #testimonial{
+	line-height: 2;
+	font-size: 1em;
+}
+
+
+#hours, #address , #testimonials {
+	margin-top:10px;
+	
+
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+#line {
+	
+	background-color: white;
+
+}
+
+/****************************************************/
 
 /************larg devices***********/
 
@@ -344,5 +377,7 @@ margin:0 auto 15px;
 #xs-deliver{
 	color: white;
 }
+
+
 
 
