@@ -194,12 +194,15 @@ color :#FFD700;
 
 /****************************************************/
 
-/*8*8*8*8*8*8*8*8*8*8*8***8*8***********the-Categories-page *******8*8*8*8*8*8*8*88*8*888*8*/
-
+/*8*8*8;*8*8*8*8*8*8*8*8***8*8***********the-Categories-page *******8*8*8*8*8*8*8*88*8*888*8*/
+.active{
+	background-color: purple;
+}
 
 #menu-categories-title  {
 	color:#FFD700;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	font-size: 3em;
 
 }
 
@@ -234,10 +237,76 @@ opacity: .8;
 .category-tile:hover {
 	box-shadow: 0 1px 5px 1px purple;
 }
+/*************************************/
+/*****************single category*********************/
+
+#defention {
+
+	color:#FFD700;
+	margin: 10px;
+	margin-top: 0;
+	font-size: 1.2em;
+}
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+#single-hr {
+	width:80%;
+	background-color: purple;
+}
+
+.menu-item-tile, .menu-item-price   {
+	color :black;
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -19px;
+	margin-right: -15px;
+	
+}
+.menu-item-tile , .menu-item-price span {
+	font-size: .6em;
+}
+.menu-item-photo {
+position: relative;
+border: 2px solid #FFD700;
+overflow: hidden;
+padding: 0;
+margin-right: -15px;
+margin-left: auto;
+margin-bottom: 20px;
+max-width: 250px;
+margin-top: 20px;
+
+}
+.menu-item-photo div {
+	position:absolute; 
+	bottom: 0;
+	right: 0;
+	width: 80px;
+	background-color: #660036;
+	text-align: center;
+	color :#FFD700;
+	opacity: .6;
+}
+.menu-item-description{
+	padding-right: 30px;
+
+}
+h3.menu-item-title{
+	margin:0 0 10px;
+	text-align: left;
+	font-size: 2em;
+	margin-top: 20px;
+}
+.menu-item-details{
+	color :black;
+	font-size: 1.4em;
+	font-style: italic;
+	text-align: left;
+}
 
 
-
-
+/**********************end-of-single-item************************/
 
 /************larg devices***********/
 
@@ -405,6 +474,20 @@ width:360px;
 margin:0 auto 15px;
 
 }
+.menu-item-photo {
+
+margin-right: auto;
+margin-left: auto;
+
+
+}
+.menu-item-tile .menu-item-price   {
+	
+	text-align: center;
+}
+h3.menu-item-title , .menu-item-details {
+	text-align: center;
+}
 }
 /*************tiny devices*****************/
 @media (max-width: 397px){
@@ -442,6 +525,20 @@ margin:0 auto 15px;
 }
 #main-content {
 	padding :20px 10px 5px  ;
+}
+.menu-item-photo {
+
+margin-right: auto;
+margin-left: auto;
+
+
+}
+.menu-item-tile .menu-item-price   {
+	
+	text-align: center;
+}
+h3.menu-item-title , .menu-item-details {
+	text-align: center;
 }
 }
 
