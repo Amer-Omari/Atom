@@ -140,7 +140,9 @@ overflow:hidden;
 	color:#fff; 
 	opacity: .8;
 }
-
+#phone div {
+	text-align: center;
+}
 
 /****************************************************/
 /**********footer****************/
@@ -192,6 +194,51 @@ color :#FFD700;
 
 /****************************************************/
 
+/*8*8*8*8*8*8*8*8*8*8*8***8*8***********the-Categories-page *******8*8*8*8*8*8*8*88*8*888*8*/
+
+
+#menu-categories-title  {
+	color:#FFD700;
+	margin-bottom: 50px;
+
+}
+
+div .category-tile {
+
+position: relative;
+border :2px solid #3f0c1f;
+overflow: hidden;
+width: 200px;
+height: 200px;
+margin: 0 auto 15px;
+padding-right: 0px;
+padding-left: 0px;
+
+}
+
+.category-tile span {
+
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+font-size: 1.2em;
+text-transform: uppercase;
+background-color: #000;
+color:#fff;
+opacity: .8;
+
+
+}
+.category-tile:hover {
+	box-shadow: 0 1px 5px 1px purple;
+}
+
+
+
+
+
 /************larg devices***********/
 
 @media (min-width: 1200px) 
@@ -204,6 +251,9 @@ color :#FFD700;
 }
 .nav-item {
 	margin-left: 0.5vw;
+}
+.smallpic {
+	font-size: 0.5vw;
 }
 
 
@@ -232,6 +282,9 @@ color :#FFD700;
 .nav-item {
 	margin-left: 0.5vw;
 }
+.smallpic {
+	font-size: 0.5vw;
+}
 
 }
 /***********small devices**********/
@@ -242,17 +295,16 @@ color :#FFD700;
 	margin-top: 0em;
 
 }
-
+.smallpic {
+	font-size: 0.8vw;
+}
 
 	
 }
 /***********extre small devices**********/
 @media (min-width: 576px ) and (max-width: 767px) {
 
-.container {
-
-
-}	
+	
 .navbar-brand h1 {
   font-family: 'Lora', serif;
   color: #FFD700;
@@ -377,8 +429,11 @@ margin-top: 6px;
  }
  .smallpic {
  	font-size:5px;
-
  }
+ .btn {
+ 	font-size: 4vw;
+ }
+
 
 #menu-tile, #specials-tile ,#map-tile{
 width:290px;
