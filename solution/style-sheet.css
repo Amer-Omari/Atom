@@ -157,6 +157,20 @@ footer {
 	line-height: 2;
 	font-size: 1em;
 }
+#hours span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#address span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+ 
+#a-address{
+text-decoration:none;
+color :#FFD700;
+
+}
 
 
 #hours, #address , #testimonials {
