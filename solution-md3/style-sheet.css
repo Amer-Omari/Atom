@@ -100,6 +100,7 @@ font-family: 'Oxygen', sans-serif;
 }
 .jumbotron {
 	padding: 0px;
+
 	
 }
 #mine {
@@ -476,6 +477,8 @@ a.nav-link span {
 	margin :0px;
 	font-size: 4vw;
 }
+
+/**********/
 #menu-tile, #specials-tile, #map-tile{
 width:360px;
 margin:0 auto 15px;
@@ -505,7 +508,12 @@ div .category-tile {
 
 }
 /*************tiny devices*****************/
-@media (max-width: 397px){
+@media (min-width: 151px)   and (max-width: 397px)
+{
+	#header-nav {
+		width: 102vw;
+	}
+
 
 .navbar-brand h1 {
 	font-family: 'Lora', serif;
@@ -525,16 +533,33 @@ font-size:3vw;
 
 margin-top: 6px;
  }
+ .navbar-toggler {
+ 	font-size:4vw;
+ 	float :right;
+
+ }
+ .navbar-toggler span {
+ 	text-align: center;
+ 	
+ }
+
+ 
  .smallpic {
  	font-size:5px;
  }
  .btn {
  	font-size: 4vw;
  }
+ .jumbotron {
+width: 80vw;
+margin-right:auto ;
+margin-left: auto;
+
+ }
 
 
 #menu-tile, #specials-tile ,#map-tile{
-width:290px;
+width:75vw;
 margin:0 auto 15px;
 
 }
@@ -551,16 +576,108 @@ margin-left: auto;
 .menu-item-tile .menu-item-price   {
 	
 	text-align: center;
+
 }
 h3.menu-item-title , .menu-item-details {
 	text-align: center;
+
 }
 div .category-tile {
-	width: 250px;
+	width: 75vw;
 
 }
 #menu-categories-img {
-	width: 250px;
+	width: 75vw;
+}
+.page-footer{
+	width: 102vw;
+}
+
+}
+
+@media (max-width: 150px) {
+
+	#header-nav {
+	width: 	109vw;
+	}
+
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #FFD700;
+	font-size:6vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: -0.7em;
+	margin-bottom: 0;
+	line-height: 1;
+	float :left;
+
+	}
+.happy {
+font-size:3vw;
+
+margin-top: 6px;
+ }
+ .navbar-toggler {
+ 	font-size:4vw;
+ 	float :right;
+
+ }
+ .navbar-toggler span {
+ 	text-align: center;
+ 	
+ }
+
+ 
+ .smallpic {
+ 	font-size:5px;
+ }
+ .btn {
+ 	font-size: 4vw;
+ }
+ .jumbotron {
+width: 80vw;
+margin-right:auto ;
+margin-left: auto;
+
+ }
+
+
+#menu-tile, #specials-tile ,#map-tile{
+width:75vw;
+margin:0 auto 15px;
+
+}
+#main-content {
+	padding :20px 10px 5px  ;
+}
+.menu-item-photo {
+
+margin-right: auto;
+margin-left: auto;
+
+
+}
+.menu-item-tile .menu-item-price   {
+	
+	text-align: center;
+
+}
+h3.menu-item-title , .menu-item-details {
+	text-align: center;
+
+}
+div .category-tile {
+	width: 75vw;
+
+}
+#menu-categories-img {
+	width: 75vw;
+}
+.page-footer{
+	width: 	109vw;
 }
 
 
