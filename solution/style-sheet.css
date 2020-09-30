@@ -237,6 +237,10 @@ opacity: .8;
 .category-tile:hover {
 	box-shadow: 0 1px 5px 1px purple;
 }
+#menu-categories-img {
+	width: 200px;
+	height: 200px;
+}
 /*************************************/
 /*****************single category*********************/
 
@@ -491,6 +495,14 @@ margin-left: auto;
 h3.menu-item-title , .menu-item-details {
 	text-align: center;
 }
+div .category-tile {
+	width: 250px;
+
+}
+#menu-categories-img {
+	width: 250px;
+}
+
 }
 /*************tiny devices*****************/
 @media (max-width: 397px){
@@ -543,6 +555,15 @@ margin-left: auto;
 h3.menu-item-title , .menu-item-details {
 	text-align: center;
 }
+div .category-tile {
+	width: 250px;
+
+}
+#menu-categories-img {
+	width: 250px;
+}
+
+
 }
 
 /******************************/
