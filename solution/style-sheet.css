@@ -244,8 +244,10 @@ opacity: .8;
 
 	color:    #FFD700;
 	margin: 10px;
-	margin-top: 0;
-	font-size: 1.2em;
+	margin-top: 4px;
+	font-size: 1.4em;
+	background: #660036;
+	border : 2px solid #FFD700 ;
 }
 .menu-item-tile {
 	margin-bottom: 25px;
@@ -276,6 +278,7 @@ margin-left: auto;
 margin-bottom: 20px;
 max-width: 250px;
 margin-top: 20px;
+max-height: 200px;
 
 }
 .menu-item-photo div {
