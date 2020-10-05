@@ -49,20 +49,6 @@ document.getElementById("content2").innerHTML = message3;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
