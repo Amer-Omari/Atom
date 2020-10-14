@@ -12,110 +12,93 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <link rel="stylesheet" href="style-sheet.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <!--font-->
+     <script src="https://kit.fontawesome.com/ffd7c6331c.js" crossorigin="anonymous"></script>
+     <!--font-end-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <!--font-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <!--font-end-->
+
+
+
+
 </head>
 
 
 <body>
-
-
-
-<!----------------------------header-start---------------------------->
+<!--header-start---------------------------->
 <header>
-<!----------------------------navbar button start---------------------------->
+<div id="wrapper">
+   <div class="overlay"></div>
 
+        <!-- Sidebar -->
+    <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
 
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large"
-  onclick="w3_close()">&times; Close </button>
-
-<a href="#" class="w3-bar-item w3-button d-none d-sm-block d-md-block d-lg-none" >Home</a>
-<a href="#" class="w3-bar-item w3-button d-none d-sm-block d-md-block d-lg-none">Features</a>
-<a href="#" class="w3-bar-item w3-button d-none d-sm-block d-md-block d-lg-none">Pricing</a>
-
-  <a href="#" class="w3-bar-item w3-button">design 1</a>
-  <a href="#" class="w3-bar-item w3-button">design 2</a>
-  <a href="#" class="w3-bar-item w3-button">design 3</a>
-
-
-
-</div>
-
-<div id="main">
-<div>
-<nav class="navbar navbar-expand-lg navbar-dark ">
-  <a class="navbar-brand" href="index.html">OMARI DEVELOPMENT</a>
-  
-
-
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-       <div>
-      <li class="nav-item active">
-       
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      
+     <ul class="nav sidebar-nav">
+       <div class="sidebar-header">
+       <div class="sidebar-brand">
+         <a href="#">OMARI</a></div></div>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#events">Events</a></li>
+       <li><a href="#team">Team</a></li>
+       <li class="dropdown">
+       <a href="#works" class="dropdown-toggle"  data-toggle="dropdown">Works <span class="caret"></span></a>
+     <ul class="dropdown-menu animated fadeInLeft" role="menu">
+      <div class="dropdown-header">Dropdown heading</div>
+      <li><a href="#pictures">Pictures</a></li>
+      <li><a href="#videos">Videeos</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#art">Art</a></li>
+      <li><a href="#awards">Awards</a></li>
+      </ul>
       </li>
-      </div>
-      <li class="nav-item">
-         <div>
-        <a class="nav-link" href="#">Features</a>
-      </div>
-      </li>
-      <li class="nav-item">
-         <div>
-        <a class="nav-link" href="#">Pricing</a>
-      </div>
-      </li>
-      
-    </ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#followme">Follow me</a></li>
+      </ul>
+  </nav>
 
-  </div>
-  <span class=logo-img>
-  <a href="index.html">
-  <img class="logo" src="logo1.png">
-</a>
-</span>
-</nav>
-</div>
-<span class="w3-teal">
-  <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
-  
-</span>
+        <!-- /#sidebar-wrapper -->
 
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <span class="CompanyName">
+              <a href="#" class="aCompanyName">
+            OMARI DEVELOPMENT
+            </a>
+          </span>
 
+          <a href="#">
+          <img class="Mylogo" src="logo4.png">
+        </a>
+            <button type="button" class="hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
 
-</div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
-
-
-
-<!----------------------------navbar button end---------------------------->
-</header>
-<!----------------------------header-end----------------------------->
+    </div>
+    <!-- /#wrapper --><!--header-end----------------------------->
 
 
 
 
 
-<!----------------------------main-content-start----------------------------->
-<!----------------------------main-content-end----------------------------->
+<!--main-content-start----------------------------->
+
+<!--main-content-end----------------------------->
 
 
 
 
-<!----------------------------footer-start----------------------------->
+<!--footer-start----------------------------->
 
-<!----------------------------footer-end----------------------------->
- 
+<!--footer-end----------------------------->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/bootstrap.bundle.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
@@ -123,8 +106,8 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="/js/jquery.min.js"></script>
   <script src="script.js"></script>
-   <script src="/js/ajax-utils.js"></script>
+  <script src="/js/ajax-utils.js"></script>
 
-  
+
 </body>
 </html>

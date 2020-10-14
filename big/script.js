@@ -1,12 +1,31 @@
-function w3_open() {
-  document.getElementById("main").style.marginLeft = "11%";
-  document.getElementById("mySidebar").style.width = "15%";
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-}
+$(document).ready(function () {
+  var trigger = document.querySelector('.hamburger'),
+      overlay = document.querySelector('.overlay'),
+     isClosed = false;
 
+
+    trigger.click(function () {
+      Sidebar_cross();
+    });
+
+    function Sidebar_cross() {
+
+      if (isClosed == true) {
+
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+         console.log(isClosed);
+      }
+  }
+
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });
+});
