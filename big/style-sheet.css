@@ -2,6 +2,12 @@ body {
     position: relative;
     overflow-x: hidden;
 
+
+
+
+
+
+
 }
 
 
@@ -381,11 +387,12 @@ margin-right: 50px;
 	text-transform: uppercase;
 font-weight: bold;
 font-size: 3.5vw;
-text-shadow: 1px 1px 5px #ffffff;
+text-shadow: 1px 1px 5px pink;
 color: black;
 }
 .aCompanyName:hover{
 	text-decoration: none;
+	color: black;
 
 }
 .hide {
@@ -393,8 +400,34 @@ color: black;
 width: 0;
 
 }
+.figbrand{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 110px;
+	font-weight: bold;
+  text-shadow: 1px 1px 5px pink;
+  font-size: 2vw;
+
+}
 
 
+.figbrand::after{
+content: "\f4fc" !important;
+font-size: 1.5vw;
+margin-left: 0px;
+margin-top: -5px;
+
+}
+#mainConent{
+  height: 1000px;
+  width: 100%;
+}
+/******************************welcome page**************************/
+
+
+
+
+/*************************************end welcome page****************************/
 
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
@@ -411,7 +444,7 @@ width: 0;
 	}
 .CompanyName{
 	 position: absolute;
-	margin-top: -62px ;
+	margin-top: -80px ;
 	margin-left: 100px;
 
 
@@ -420,6 +453,16 @@ width: 0;
 .aCompanyName{
 
 font-size: 6vw;
+}
+.figbrand{
+	position: absolute;
+	margin-top: -50px ;
+	margin-left: 110px;
+	font-size: 3vw;
+}
+.hamburger{
+margin-top: 20px;
+
 }
 
 }
@@ -439,7 +482,7 @@ font-size: 6vw;
 	}
 .CompanyName{
    position: absolute;
-	margin-top: -65px ;
+	margin-top: -80px ;
 	margin-left: 100px;
 
 
@@ -447,6 +490,17 @@ font-size: 6vw;
 .aCompanyName{
 
 font-size: 5vw;
+}
+.figbrand{
+	position: absolute;
+	margin-top: -50px ;
+	margin-left: 110px;
+	font-size: 3vw;
+
+}
+.hamburger{
+margin-top: 20px;
+
 }
  }
 
