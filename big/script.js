@@ -1,64 +1,75 @@
+var slideIndex = 0;
+showSlides();
 
-
-var  logo = document.querySelector(".Mylogo"),
- trigger = document.querySelector('.hamburger'),
- wholeConent = document.querySelector('#page-content-wrapper');
-//sidebar work
-
-$(document).ready(function () {
-
-    var  overlay = document.querySelector('.overlay'),
-      wholebody = document.getElementsByTagName("BODY")[0],
-      wrapper = document.querySelector('#wrapper'),
-     isClosed = false;
-
-    trigger.click(function () {
-      Sidebar_cross();
-    });
-
-    function Sidebar_cross() {
-
-      if (isClosed == true) {
-
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-
-      } else {
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
 
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
 
-  });
 
-  //**make the sidebar close when click anywhere on the conent***////
-  function closeNav(e){
-    e.preventDefault();
-    wrapper.classList.remove("toggled");
-  };
-   wholeConent.addEventListener("click",closeNav,false);
-  /**end of sidebar close*///
+var myA = document.querySelector(".a-button"),
+button2=document.querySelector(".a2-button"),
+message=document.querySelector(".message"),
+button=document.querySelector(".btn");
+
+
+
+
+
+document.addEventListener("DOMContentLoaded",
+  function (event){
+function checking (event){
+var input = document.querySelector(".yes-no").value;
+
+if (input=="Yes"||input=="yes"){
+
+myA.setAttribute("href","mainpage.html");
+}
+else{
+   if (input=="No"||input=="no"){
+
+myA.setAttribute("class","normally-hidden");
+button.setAttribute("class","normally-hidden");
+
+message.classList.remove("normally-hidden");
+button2.classList.remove("normally-hidden");
+
+   }
+  else {
+// var message2=document.createElement("p");
+// var text2= document.createTextNode("please fill the gap above with Yes or No.");
+// messsage2.appendChild(text2);
+// var login=document.querySelector(".login");
+// login.appendChild(message2);
+confirm("please write Yes or No only!");
+
+
+  }
+}
+
+}
+document.querySelector(".btn").addEventListener("click", checking);
+// button.addEventListener("click",checking,false);
+// myA.addEventListener("click",checking,false);
+
+
+
+
+
+
+
+
 
 });
-//sidebar end
-
-
-// Make the logo disapear once the nave open
-function getLogo(e) {
-    e.preventDefault();
-    logo.classList.toggle("hide");
-}
-function retrivelogo(q) {
-    q.preventDefault();
-    logo.classList.remove("hide");
-}
-trigger.addEventListener("click",getLogo,false);
-   wholeConent.addEventListener("click",retrivelogo,false);
-//done with the logo disapearing
