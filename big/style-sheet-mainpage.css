@@ -4,10 +4,6 @@ body {
 
 
 
-
-
-
-
 }
 
 
@@ -18,6 +14,7 @@ body {
 #wrapper {
     padding-left: 0;
     transition: all 0.5s ease;
+
 }
 
 #wrapper.toggled {
@@ -48,6 +45,7 @@ body {
 #page-content-wrapper {
     width: 100%;
     padding-top: 70px;
+    margin-top: -40px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -87,13 +85,13 @@ body {
     height: 100%;
     width: 5px;
     background-color: #1c1c1c;
-
-            transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
 
 }
 .sidebar-nav li:first-child a {
     color: #fff;
     background-color: #1a1a1a;
+
 }
 .sidebar-nav li:nth-child(5n+1):before {
     background-color: #ec1b5a;
@@ -120,9 +118,12 @@ body {
 
 .sidebar-nav li a {
     display: block;
-    color: #ddd;
+
     text-decoration: none;
     padding: 10px 15px 10px 30px;
+     color:white;
+
+
 }
 
 .sidebar-nav li a:hover,
@@ -134,6 +135,7 @@ body {
     color: #fff;
     text-decoration: none;
     background-color: transparent;
+
 }
 .sidebar-header {
     text-align: center;
@@ -141,27 +143,32 @@ body {
     position: relative;
     width: 100%;
     display: inline-block;
+
 }
 .sidebar-brand {
     height: 65px;
     position: relative;
     background:#212531;
-    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    background: linear-gradient(to right bottom, #e60500 50%, #e60500 50%);
    padding-top: 1em;
+
 }
 .sidebar-brand a {
-    color: #ddd;
+    color: white;
+
 }
 .sidebar-brand a:hover {
-    color: #fff;
+    color: black;
     text-decoration: none;
+  text-shadow: 1px 1px 10px   white;
 }
 .dropdown-header {
     text-align: center;
     font-size: 1em;
-    color: #ddd;
+    color: white;
     background:#212531;
-    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    background: linear-gradient(to right bottom, #e60500 50%, #e60500 50%);
+
 }
 .sidebar-nav .dropdown-menu {
     position: relative;
@@ -170,11 +177,14 @@ body {
     margin: 0;
     border-radius: 0;
     border: none;
-    background-color: #222;
+    background-color: white;
     box-shadow: none;
+ background-color: black;
+
 }
 .dropdown-menu.show {
     top: 0;
+
 }
 /*Fontawesome icons*/
 .nav.sidebar-nav li a::before {
@@ -183,9 +193,11 @@ body {
     vertical-align: baseline;
     display: inline-block;
     padding-right: 5px;
+
 }
 a[href*="#home"]::before {
   content: "\f015" !important;
+
 }
 a[href*="#about"]::before {
   content: "\f129" !important;
@@ -238,14 +250,17 @@ a[href*="#followme"]::before {
   display: block;
   width: 32px;
   height: 32px;
-  margin-left: 15px;
+  margin-left: 20px;
   background: transparent;
   border: none;
+
+
 }
 .hamburger:hover,
 .hamburger:focus,
 .hamburger:active {
   outline: none;
+
 }
 .hamburger.is-closed:before {
   content: '';
@@ -258,12 +273,14 @@ a[href*="#followme"]::before {
   opacity: 0;
   -webkit-transform: translate3d(0,0,0);
   -webkit-transition: all .35s ease-in-out;
+
 }
 .hamburger.is-closed:hover:before {
   opacity: 1;
   display: block;
   -webkit-transform: translate3d(-100px,0,0);
   -webkit-transition: all .35s ease-in-out;
+
 }
 
 .hamburger.is-closed .hamb-top,
@@ -276,11 +293,14 @@ a[href*="#followme"]::before {
   left: 0;
   height: 4px;
   width: 100%;
+
 }
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: white;
+
+
 }
 .hamburger.is-closed .hamb-top {
   top: 5px;
@@ -306,7 +326,7 @@ a[href*="#followme"]::before {
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-  background-color: #1a1a1a;
+  background-color: white;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
@@ -341,6 +361,8 @@ a[href*="#followme"]::before {
   -webkit-transition: all .35s ease-in-out;
 }
 
+
+
 /*-------------------------------*/
 /*            Overlay            */
 /*-------------------------------*/
@@ -359,12 +381,13 @@ a[href*="#followme"]::before {
 }
 
 #page-content-wrapper{
-	background: rgb(83,147,217);
-	background: linear-gradient(90deg, rgba(83,147,217,1) 0%, rgba(101,57,135,1) 79%, rgba(54,17,55,1) 100%);
+
 position: absolute;
 padding-top: 10px;
-
+background-color:   #e60500;
+margin-top: -160px;
 }
+
 .Mylogo{
 float: right;
 width: 150px;
@@ -387,12 +410,14 @@ margin-right: 50px;
 	text-transform: uppercase;
 font-weight: bold;
 font-size: 3.5vw;
-text-shadow: 1px 1px 5px pink;
+text-shadow: 1px 1px 10px black;
 color: black;
+color:white;
 }
 .aCompanyName:hover{
 	text-decoration: none;
 	color: black;
+  text-shadow: 1px 1px 10px white;
 
 }
 .hide {
@@ -405,8 +430,9 @@ width: 0;
 	margin-top: 85px;
 	margin-left: 110px;
 	font-weight: bold;
-  text-shadow: 1px 1px 5px pink;
+  text-shadow: 1px 1px 10px black;
   font-size: 2vw;
+  color:white;
 
 }
 
@@ -418,9 +444,12 @@ margin-left: 0px;
 margin-top: -5px;
 
 }
-#mainConent{
-  height: 1000px;
+#mainPageContent{
+margin-top: 160px;
   width: 100%;
+
+  height: 768px;
+
 }
 /******************************welcome page**************************/
 

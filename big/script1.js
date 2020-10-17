@@ -2,6 +2,7 @@
 
 var  logo = document.querySelector(".Mylogo"),
  trigger = document.querySelector('.hamburger'),
+ mainPageContent=document.querySelector("#mainPageContent"),
  wholeConent = document.querySelector('#page-content-wrapper');
 //sidebar work
 
@@ -42,9 +43,23 @@ $(document).ready(function () {
   function closeNav(e){
     e.preventDefault();
     wrapper.classList.remove("toggled");
+
   };
    wholeConent.addEventListener("click",closeNav,false);
+   mainPageContent.addEventListener("click",closeNav,false);
   /**end of sidebar close*///
+
+  //when you scroll down
+// function deletebutton (g){
+//   var deleteham = trigger;
+// deleteham.remove();
+// }
+//
+//
+// window.addEventListener("scroll",deletebutton,false);
+
+
+  //end scroll down
 
 });
 //sidebar end

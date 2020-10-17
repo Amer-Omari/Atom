@@ -23,8 +23,23 @@ var myA = document.querySelector(".a-button"),
 button2=document.querySelector(".a2-button"),
 message=document.querySelector(".message"),
 button=document.querySelector(".btn");
+var input = document.querySelector(".yes-no");
 
+//////////////////////////////////
 
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    button.click();
+
+  }
+});
+
+/////////////////////////////
 
 
 
@@ -48,11 +63,7 @@ button2.classList.remove("normally-hidden");
 
    }
   else {
-// var message2=document.createElement("p");
-// var text2= document.createTextNode("please fill the gap above with Yes or No.");
-// messsage2.appendChild(text2);
-// var login=document.querySelector(".login");
-// login.appendChild(message2);
+
 confirm("please write Yes or No only!");
 
 
