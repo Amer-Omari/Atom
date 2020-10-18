@@ -502,26 +502,37 @@ margin-top: 160px;
 .row{
   width: 100%;
 }
-#About {
-  color: white;
-  line-height: 2;
 
-}
 .About-section{
   color: white;
   line-height: 2;
-  	font-size: 1.5em;
+  	font-size: 1.1em;
+text-align: center;
+}
+#About {
+  color: white;
+  line-height: 2;
+text-transform: capitalize;
+	font-size: 1.5em;
+text-align: center;
+
+}
+
+.contact-section{
+  color: white;
+  line-height: 2;
+  	font-size: 1.1em;
+    text-align: center;
+    font-style: italic;
 }
 #contact{
 color: white;
 line-height: 2;
+text-transform: capitalize;
+	font-size: 1.5em;
+}
 
-}
-.contact-section{
-  color: white;
-  line-height: 2;
-  	font-size: 1.5em;
-}
+
 #a-address{
   color: white;
   text-decoration: none;
@@ -531,22 +542,49 @@ line-height: 2;
   color: gold;
 
 }
-#Hours{
+.phone{
+  text-decoration: none;
   color: white;
-  line-height: 2;
 
 }
+.phone:hover{
+  text-decoration: none;
+  color: gold;
+}
+.Email{
+  text-decoration: none;
+  color: white;
+  
+}
+.Email:hover{
+text-decoration: none;
+color: gold;
+}
+
 .Hours-section{
   color: white;
   line-height: 2;
-  		font-size: 1.5em;
+  		font-size: 1.1em;
+      text-align: center;
 }
+#Hours{
+  color: white;
+  text-transform: capitalize;
+  line-height: 2;
+  	font-size: 1.5em;
+}
+
 #line{
   color: gold;
   background-color: gold;
 
 }
-
+.footer-copyright {
+  text-align: center;
+  color: gold;
+  font-style: oblique;
+  font-weight: bold;
+}
 
 
 /**************footer end********************/
