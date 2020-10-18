@@ -149,7 +149,7 @@ body {
     height: 65px;
     position: relative;
     background:#212531;
-    background: linear-gradient(to right bottom, #e60500 50%, #e60500 50%);
+    background: linear-gradient(to right bottom, #cc0300 50%, #cc0300 50%);
    padding-top: 1em;
 
 }
@@ -167,7 +167,7 @@ body {
     font-size: 1em;
     color: white;
     background:#212531;
-    background: linear-gradient(to right bottom, #e60500 50%, #e60500 50%);
+    background: linear-gradient(to right bottom, #cc0300 50%, #cc0300 50%);
 
 }
 .sidebar-nav .dropdown-menu {
@@ -384,7 +384,7 @@ a[href*="#followme"]::before {
 
 position: absolute;
 padding-top: 10px;
-background-color:   #e60500;
+background-color:   #cc0300;
 margin-top: -160px;
 }
 
@@ -393,6 +393,24 @@ float: right;
 width: 150px;
 height: 150px;
 margin-right: 50px;
+margin-bottom: 10px;
+}
+a .Mylogo:hover{
+
+background-color:  #e6c300;
+background: linear-gradient(to right,  50%, gold 50%);
+ background-size: 200% 100%;
+ background-position: right bottom;
+ transition: all 2s ease;
+ -moz-border-radius-topleft: 10px;
+ -moz-border-radius-topright: 10px;
+ -moz-border-radius-bottomright: 0px;
+ -moz-border-radius-bottomleft: 0px;
+ -webkit-border-radius: 10px 10px 0px 0px;
+ border-radius: 40px 40px 40px 40px;
+
+
+
 }
 .hamburger {
 	margin-top: 40px;
@@ -416,8 +434,8 @@ color:white;
 }
 .aCompanyName:hover{
 	text-decoration: none;
-	color: black;
-  text-shadow: 1px 1px 10px white;
+	color: gold;
+  text-shadow: 1px 1px 5px black;
 
 }
 .hide {
@@ -446,11 +464,67 @@ margin-top: -5px;
 }
 #mainPageContent{
 margin-top: 160px;
+
   width: 100%;
 
   height: 768px;
 
 }
+
+/**********footer***********************/
+.page-footer{
+  background-color: #cc0300;
+  padding: 70px;
+}
+.row{
+  width: 100%;
+}
+#About {
+  color: white;
+  line-height: 2;
+
+}
+.About-section{
+  color: white;
+  line-height: 2;
+  	font-size: 1.5em;
+}
+#contact{
+color: white;
+line-height: 2;
+
+}
+.contact-section{
+  color: white;
+  line-height: 2;
+  	font-size: 1.5em;
+}
+#a-address{
+  color: white;
+  text-decoration: none;
+
+}
+#a-address:hover{
+  color: gold;
+
+}
+#Hours{
+  color: white;
+  line-height: 2;
+
+}
+.Hours-section{
+  color: white;
+  line-height: 2;
+  		font-size: 1.5em;
+}
+#line{
+  color: gold;
+  background-color: gold;
+
+}
+
+/**************footer end********************/
 /******************************welcome page**************************/
 
 
