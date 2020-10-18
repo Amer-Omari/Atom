@@ -244,7 +244,7 @@ a[href*="#followme"]::before {
 /*-------------------------------*/
 
 .hamburger {
-  position: fixed;
+  position: relative;
   top: 20px;
   z-index: 999;
   display: block;
@@ -385,7 +385,7 @@ a[href*="#followme"]::before {
 position: absolute;
 padding-top: 10px;
 background-color:   #cc0300;
-margin-top: -160px;
+
 }
 
 .Mylogo{
@@ -472,9 +472,32 @@ margin-top: 160px;
 }
 
 /**********footer***********************/
+
+#wrapper-footer {
+    padding-left: 0;
+
+
+}
+
+#wrapper-footer.toggled {
+    padding-left: 13.750em;
+}
+
+#wrapper-footer.toggled .page-footer {
+  margin-left: -220px;
+  position: absolute;
+
+}
+
+
+
 .page-footer{
+  box-sizing: border-box;
   background-color: #cc0300;
-  padding: 70px;
+  padding: 40px;
+  width: 100%;
+  position: absolute;
+
 }
 .row{
   width: 100%;
@@ -523,6 +546,8 @@ line-height: 2;
   background-color: gold;
 
 }
+
+
 
 /**************footer end********************/
 /******************************welcome page**************************/
