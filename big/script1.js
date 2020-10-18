@@ -52,7 +52,7 @@ $(document).ready(function () {
 
   //**make the sidebar close when click anywhere on the conent***////
   function closeNav(e){
-    e.preventDefault();
+
     wrapper.classList.remove("toggled");
 
   };
@@ -79,11 +79,11 @@ $(document).ready(function () {
 
 // Make the logo disapear once the nave open
 function getLogo(e) {
-    e.preventDefault();
+
     logo.classList.toggle("hide");
 }
 function retrivelogo(q) {
-    q.preventDefault();
+  
     logo.classList.remove("hide");
 }
 trigger.addEventListener("click",getLogo,false);

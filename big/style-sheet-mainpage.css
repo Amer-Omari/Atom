@@ -542,19 +542,19 @@ text-transform: capitalize;
   color: gold;
 
 }
-.phone{
+#phone{
   text-decoration: none;
   color: white;
 
 }
-.phone:hover{
+#phone:hover{
   text-decoration: none;
   color: gold;
 }
 .Email{
   text-decoration: none;
   color: white;
-  
+
 }
 .Email:hover{
 text-decoration: none;
