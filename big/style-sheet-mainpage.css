@@ -1058,14 +1058,15 @@ margin-top:50px;}
 		}
 
     .firstserviceimg{width:30em; }
-    .secondeserviceimg{width: 30em;}
+    .secondeserviceimg{width: 100%;}
     .thiredserviceimg{width:30em; }
 
       .firstservice{ font-size:2rem;}
       .firstservicedescription{font-size:1.5rem;}
       .secondeservice{font-size:2rem;
 margin-top:   50px;     }
-        .secondeservicedescription{font-size:1.5rem;}
+        .secondeservicedescription{font-size:1.5rem;
+        }
         .thiredservice{font-size:2rem;
   margin-top:  50px;    }
           .thiredservicedescription{font-size:1.5rem;}
@@ -1073,6 +1074,6 @@ margin-top:   50px;     }
 
 	 }
 @media (min-width: 1200px) {
-
+  .secondeserviceimg{width: 100%;
 
 }
