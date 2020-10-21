@@ -505,7 +505,7 @@ margin-top: 96.59px;
 /******************mainContent start******************/
 
 .myMainImg{
-height: 700px;
+/* height: 700px; */
 width: 100%;
 padding: 0;
 margin-left: 15px;
@@ -602,25 +602,42 @@ margin-left: 20px;
 /******************************************/
 .awantbutton{
   text-align: center;
-
+text-decoration: none;
+  border-radius: 50%;
 }
 .buttonwant{
+
   text-align: center;
   background-color: #cc0300;
-  border-radius: 50%;
-  color: gold;
+  border-radius: 50px;;
+  color: white;
   width: 200px;
   height: 50px;
   font-weight: 600;
   font-size: 1.4em;
+  text-decoration: none;
+  border :0.5px solid black;
+  padding: 0;
+
 }
 .buttonwant:hover{
-  background: gold;
+  background: white;
   color: #cc0300;
+  transition-duration: 0.8s;
+
+}
+button:focus{
 
 }
 .center{
   text-align: center;
+}
+#line1{
+  background-color: black;
+margin-left: 30px;
+margin-right: auto;
+  height: 1px;
+
 }
 /****************mainContent end*********************/
 
@@ -783,6 +800,41 @@ font-size: 6vw;
 margin-top: 20px;
 
 }
+.ourServices{
+  margin-top: 0px;
+}
+.firstserviceimg{width:100%;
+margin-left: 15px;}
+  .secondeserviceimg{width: 100%;
+  margin-left: 15px;}
+    .thiredserviceimg{width:100%;
+    margin-left: 15px;}
+
+
+.firstservice{ font-size:1.6rem;
+margin-left: 35px;
+margin-top: 70px;}
+.firstservicedescription{font-size:1.2rem;
+margin-left: 40px;
+}
+.secondeservice{font-size:1.6rem;
+margin-left: 35px;
+margin-top: 20px;}
+.secondeservicedescription{font-size:1.2rem;
+margin-left: 40px;
+margin-top: 20px;}
+.thiredservice{font-size:1.6rem;
+margin-left: 35px;
+margin-top: 20px;}
+.thiredservicedescription{font-size:1.2rem;
+margin-left: 40px;
+margin-top: 20px;}
+
+
+.buttonwant{
+  margin-left: 20px;
+  margin-top: 10px;
+}
 
 }
 
@@ -821,19 +873,39 @@ font-size: 5vw;
 margin-top: 20px;
 
 }
-.firstserviceimg{width:100%; }
-  .secondeserviceimg{width: 100%;}
-    .thiredserviceimg{width:100%; }
+.ourServices{
+  margin-top: 0px;
+}
+.firstserviceimg{width:100%;
+margin-left: 15px;}
+  .secondeserviceimg{width: 100%;
+  margin-left: 15px;}
+    .thiredserviceimg{width:100%;
+    margin-left: 15px;}
 
 
-.firstservice{ font-size:1.6rem;}
-.firstservicedescription{font-size:1.2rem;}
-.secondeservice{font-size:1.6rem;}
-.secondeservicedescription{font-size:1.2rem;}
-.thiredservice{font-size:1.6rem;}
-.thiredservicedescription{font-size:1.2rem;}
+.firstservice{ font-size:1.6rem;
+margin-left: 30px;
+margin-top: 70px;}
+.firstservicedescription{font-size:1.2rem;
+margin-left: 30px;}
+.secondeservice{font-size:1.6rem;
+margin-left: 35px;
+margin-top: 30px;}
+.secondeservicedescription{font-size:1.2rem;
+margin-left: 40px;
+margin-top: 30px;}
+.thiredservice{font-size:1.6rem;
+margin-left: 30px;
+margin-top: 30px;}
+.thiredservicedescription{font-size:1.2rem;
+margin-left: 40px;
+margin-top: 30px;}
 
-
+.buttonwant{
+  margin-left: 20px;
+  margin-top: 10px;
+}
 
  }
 
@@ -851,18 +923,30 @@ margin-top: 20px;
 
 
   }
-  .firstserviceimg{width:100%; }
-    .secondeserviceimg{width:100%;}
-      .thiredserviceimg{width:100%; }
+  .firstserviceimg{width:100%;
+  margin-top: 55px;}
+    .secondeserviceimg{width:100%;
+    margin-top: 70px;}
+      .thiredserviceimg{width:100%;
+      margin-top:50px; }
 
 
-  .firstservice{ font-size:1.6rem;}
-  .firstservicedescription{font-size:1.2rem;}
-  .secondeservice{font-size:1.6rem;}
-  .secondeservicedescription{font-size:1.2rem;}
-  .thiredservice{font-size:1.6rem;}
-  .thiredservicedescription{font-size:1.2rem;}
-
+  .firstservice{ font-size:1.6rem;
+  margin-top: 90px;}
+  .firstservicedescription{font-size:1.1rem;
+  margin-top: 20px;}
+  .secondeservice{font-size:1.6rem;
+  margin-top: 30px;}
+  .secondeservicedescription{font-size:1.1rem;
+  margin-top: 20px;}
+  .thiredservice{font-size:1.6rem;
+  margin-top: 30px;}
+  .thiredservicedescription{font-size:1.1rem;
+  margin-top: 20px;}
+  .buttonwant{
+    width: 130px;
+    height: 45px;;
+  }
 
 }
 /*Medium devices (tablets, 768px and up)*/
@@ -879,19 +963,31 @@ margin-top: 20px;
 
 
 	}
-  .firstserviceimg{width:100%; }
-    .secondeserviceimg{width:100%;}
-      .thiredserviceimg{width:100%; }
+  .firstserviceimg{width:100%;
+  margin-top: 55px;}
+    .secondeserviceimg{width:100%;
+    margin-top: 40px;}
+      .thiredserviceimg{width:100%;
+      margin-top:50px; }
 
 
-  .firstservice{ font-size:1.7rem;}
-  .firstservicedescription{font-size:1.3rem;}
-  .secondeservice{font-size:1.7rem;}
-  .secondeservicedescription{font-size:1.3rem;}
-  .thiredservice{font-size:1.7rem;}
-  .thiredservicedescription{font-size:1.3rem;}
+  .firstservice{ font-size:1.7rem;
+  margin-top: 90px;}
+  .firstservicedescription{font-size:1.1rem;
+  margin-top: 20px;}
+  .secondeservice{font-size:1.7rem;
+  margin-top: 30px;}
+  .secondeservicedescription{font-size:1.1rem;
+    margin-top: 20px;}
+  .thiredservice{font-size:1.7rem;
+  margin-top: 30px;}
+  .thiredservicedescription{font-size:1.1rem;
+    margin-top: 20px;}
 
-
+.buttonwant{
+  width: 150px;
+  height: 50px;;
+}
 
 
 }
@@ -903,16 +999,22 @@ margin-top: 20px;
 		margin-left: 100px;
 		}
 
-    .firstserviceimg{width:100%; }
-      .secondeserviceimg{width:100%;}
-        .thiredserviceimg{width:100%;; }
+    .firstserviceimg{width:100%;
+    margin-top: 55px;}
+      .secondeserviceimg{width:100%;
+      margin-top: 90px;}
+        .thiredserviceimg{width:100%;
+        margin-top:50px; }
 
 
-    .firstservice{ font-size:2rem;}
+    .firstservice{ font-size:2rem;
+    margin-top: 110px;}
     .firstservicedescription{font-size:1.5rem;}
-    .secondeservice{font-size:2rem;}
-    .secondeservicedescription{font-size:1.5rem;}
-    .thiredservice{font-size:2rem;}
+    .secondeservice{font-size:2rem;
+    margin-top: 40px;}
+    .secondeservicedescription{font-size:1.45rem;}
+    .thiredservice{font-size:2rem;
+    margin-top: 50px;}
     .thiredservicedescription{font-size:1.5rem;}
 
 
@@ -927,11 +1029,16 @@ margin-top: 20px;
 		margin-left: 100px;
 		}
 
-    .firstserviceimg{width:100%; }
-      .secondeserviceimg{width:100%;}
-        .thiredserviceimg{width:100%; }
+    .firstserviceimg{width:100%;
+    margin-top: 55px;}
+      .secondeserviceimg{width:100%;
+      margin-top: 60px;}
+        .thiredserviceimg{width:100%;
+        margin-top:50px; }
 
-.firstservice{ font-size:2rem;}
+.firstservice{ font-size:2rem;
+margin-top: 110px;
+}
 .firstservicedescription{font-size:1.5rem;}
 .secondeservice{font-size:2rem;
 margin-top:40px;}
