@@ -20,56 +20,104 @@
 /*Nav bar and Logo set up end*/
 .mainContent
 {
-  height: 500px;
-
   background-color: ;
-  }
+}
 /*service Style*/
 .servicesContainer{
   float: left;
-
 }
 .insideService{
   background-color: #00a6f4;
   text-align: center;
-  padding-top: 100px;
-padding-bottom:  100px;
+  padding-top: 120px;
+  padding-bottom:  120px;
 }
-
 .customerImage{
   height: 250px;
   width: 250px;
-
 }
 .servicesText {
   color: white;
-
-font-size: 2vw;
+  font-size: 2vw;
 }
 /*service Style end*/
 /*courses Style*/
 .coursesContainer{
   float: left;
-
 }
 .insideCourses{
   background-color: #7158cd;
   text-align: center;
-  padding-top: 100px;
-padding-bottom:  100px;
+  padding-top: 120px;
+  padding-bottom:  120px;
 }
-
 .CoursesImage{
   height: 250px;
   width: 250px;
-
 }
 .coursesText{
   color: white;
-
-font-size: 2vw;
+  font-size: 2vw;
 }
 /*courses Style end*/
-.servicesContainer .aDecor,.coursesContainer .aDecor {
+/*messages and News style start*/
+.MessagesNewsContainer
+{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*messages start*/
+.MessagesContainer
+{
+float:  left;
+}
+.insideMessages
+{
+  background-color: #feb801;
+  text-align: center;
+  padding-top: 90px ;
+
+    height: 300px;
+}
+.MessagesImage
+{
+  width: 300px;
+}
+.MessagesText
+{
+  color: white;
+  font-size: 2vw;
+}
+/*messages end*/
+
+/*News start*/
+.insideNews
+{
+  background-color: #f04f21;
+  text-align: center;
+  padding-top: 39px ;
+
+  height: 300px;
+
+}
+.NewsContainer
+{
+    float: left;
+}
+.NewsImage
+{
+  width: 240px;
+}
+.NewsText
+{
+  color: white;
+  font-size: 2vw;
+}
+/*News end*/
+/*messages and News style end*/
+
+
+.servicesContainer .aDecor,.coursesContainer .aDecor,.MessagesContainer .aDecor,.NewsContainer .aDecor{
   text-decoration: none;
 }
