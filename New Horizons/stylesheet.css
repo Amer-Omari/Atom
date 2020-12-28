@@ -1,0 +1,75 @@
+/*Nav bar and Logo set up*/
+.NewHorzionsNav
+{
+  height: 150px;
+  width: 100%;
+  background-color: #00427f;
+}
+
+.logocontainer
+{
+  text-align: center;
+  height: 150px;
+}
+
+.alogo {
+  display: block;
+  text-align: center;
+   width: 320px;
+}
+/*Nav bar and Logo set up end*/
+.mainContent
+{
+  height: 500px;
+
+  background-color: ;
+  }
+/*service Style*/
+.servicesContainer{
+  float: left;
+
+}
+.insideService{
+  background-color: #00a6f4;
+  text-align: center;
+  padding-top: 100px;
+padding-bottom:  100px;
+}
+
+.customerImage{
+  height: 250px;
+  width: 250px;
+
+}
+.servicesText {
+  color: white;
+
+font-size: 2vw;
+}
+/*service Style end*/
+/*courses Style*/
+.coursesContainer{
+  float: left;
+
+}
+.insideCourses{
+  background-color: #7158cd;
+  text-align: center;
+  padding-top: 100px;
+padding-bottom:  100px;
+}
+
+.CoursesImage{
+  height: 250px;
+  width: 250px;
+
+}
+.coursesText{
+  color: white;
+
+font-size: 2vw;
+}
+/*courses Style end*/
+.servicesContainer .aDecor,.coursesContainer .aDecor {
+  text-decoration: none;
+}
